@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@project-serum/anchor": "^0.25.0-beta.1",
+    "@solana/spl-token": "^0.2.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "v16.13.1"
+  }
+}
